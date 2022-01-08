@@ -1,0 +1,103 @@
+/* Standard */
+body {
+    color: rgba(255,255,255,.70);
+    background-color: #000000e8;
+}
+.socicon {
+    color: rgba(255, 255, 255, 0.70);
+}
+/* Header */
+#main-bar {
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+#main-bar .icon {
+    background: url("/images/light-icon.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#main-bar h1 {
+    color: rgba(0, 0, 0, 0.54);
+}
+#mobile-appbar,
+#appbar {
+    background-color: #0091EA;
+}
+
+#appbar {
+    color: #ffffff;
+}
+
+#appbar a {
+    color: #ffffff;
+}
+
+.article {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.54);
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.34);
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: rgba(255,255,255, 0.5);
+}
+
+/* Content */
+.main {
+    background-color: #2196F3;
+}
+/* Footer */
+#footer {
+    color: rgba(255, 255, 255, 0.48);
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.80);
+}
+.main-footer {
+    border-top: 1px solid rgba(0,0,0,0.14);
+}
+
+.main h3 {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.main  h4 {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-height: 600px) {
+    #main-bar .icon {
+        background: url("/images/light-icon.png");
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 700px) {
+    #main-bar .icon {
+        background: url("/images/light-icon.png");
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 420px) {
+
+}

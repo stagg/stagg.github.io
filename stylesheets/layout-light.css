@@ -1,0 +1,95 @@
+/* Standard */
+/* body {
+    color: rgba(0,0,0,.87);
+    background-color: #fafafa;
+}*/
+body {
+    color: #ffffff;
+    background-color: #000000;
+}
+.socicon {
+    color: rgba(255, 255, 255, 0.50);
+}
+/* Header */
+#main-bar {
+    border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+#main-bar .icon {
+    background: url("/images/dark-icon.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#main-bar h1 {
+    color: rgba(0, 0, 0, 0.54);
+}
+#mobile-appbar,
+#appbar {
+    background-color: #e0e0e0;
+}
+
+#appbar {
+    color: #000000;
+}
+
+#appbar a {
+    color: #000000;
+}
+
+.article {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h3 {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+h4 {
+    color: rgba(0, 0, 0, 0.34);
+}
+
+a {
+    color: #0091EA;
+}
+
+/* Content */
+.main {
+    background-color: #ffffff;
+}
+/* Footer */
+#footer {
+    color: rgba(255, 255, 255, 0.48);
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.80);
+}
+.main-footer {
+    border-top: 1px solid rgba(0,0,0,0.14);
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-height: 600px) {
+    #main-bar .icon {
+        background: url("/images/dark-icon.png");
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 700px) {
+    #main-bar .icon {
+        background: url("/images/dark-icon.png");
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 420px) {
+
+}

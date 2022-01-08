@@ -1,0 +1,91 @@
+/* Standard */
+body {
+    color: #ffffff;
+    background-color: #212121;
+}
+.socicon {
+    color: rgba(255, 255, 255, 0.50);
+}
+/* Header */
+#main-bar {
+    border-bottom: 1px solid rgba(255,255,255,0.14);
+}
+#main-bar .icon {
+    background: url("/images/light-icon.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+#main-bar h1 {
+    color: rgba(255, 255, 255, 0.7);
+}
+#mobile-appbar,
+#appbar {
+    background-color: #000000;
+}
+
+#appbar {
+    color: #ffffff;
+}
+
+#appbar a {
+    color: #ffffff;
+}
+
+.article {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+h1 {
+    color: rgba(255, 255, 255, 1.0);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+a {
+    color: #0091EA;
+}
+
+/* Content */
+.main {
+    background-color: #000000;
+}
+/* Footer */
+#footer {
+    color: rgba(255, 255, 255, 0.48);
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.80);
+}
+.main-footer {
+    border-top: 1px solid rgba(255,255,255,0.14);
+}
+
+@media (min-width: 1024px) {
+
+}
+
+@media (max-height: 600px) {
+    #main-bar .icon {
+        background: url("/images/light-icon.png");
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 700px) {
+    #main-bar .icon {
+        background: url("/images/light-icon.png");
+        background-size: 48px 48px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 420px) {
+
+}

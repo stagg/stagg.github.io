@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+.main {
+  width: 0;
+  height: 100%;
+  position: relative;
+  display: none;
+}
+.sub-content {
+  margin-left: 0;
+}
+.links {
+  margin-top: 4rem;
+  padding: 2.5rem;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.social-links {
+  margin-top: 3rem;
+}
+.socicon {
+  margin: 0.8rem;
+  font-size: 3rem;
+  padding: 1rem;
+}
+.index-center {
+  top: 40%;
+  position: absolute;
+  width: 100%;
+}
+.index-content {
+  margin-top: -5%;
+}
+.index-content .links {
+  font-weight: 700;
+}
+.index-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+}
+.index-title {
+  font-family: 'Poiret One', serif, cursive;
+  font-size: 9.0rem;
+  text-transform: uppercase;
+  line-height: 6rem;
+}
+@media (max-width: 800px) {
+  h1 {
+    font-size: 6.0rem;
+  }
+  .links {
+    margin-top: 2.5rem;
+    padding: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .index-title {
+    font-size: 7.0rem;
+  }
+  .social-links .horz-list li {
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+}
+@media (max-width: 420px) {
+  h1 {
+    font-size: 4.0rem;
+  }
+  .links {
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .index-title {
+    font-size: 6.0rem;
+  }
+  .social-links {
+    max-width: 320px;
+  }
+}
+@media (max-height: 600px) {
+  .index-center {
+    top: 20%;
+  }
+  .index-content {
+    margin-top: 0;
+  }
+}
+@media (max-height: 400px) {
+  .index-footer {
+    display: none;
+  }
+}
