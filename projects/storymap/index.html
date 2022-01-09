@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Josh Stagg</title>
+    <title>StoryMap.io </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#2196F3">
     <link rel="icon" sizes="192x192" href="/images/blue-icon.png">
@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="/stylesheets/font-awesome.css" media="">
     <link rel="stylesheet" href="/stylesheets/socicon.css" media="">
     <link rel="stylesheet" href="/stylesheets/layout.css" media="">
-    <link rel="stylesheet" href="/stylesheets/index.css" media="">
-    <link rel="stylesheet" href="/stylesheets/layout-light.css" media="">
+    <link rel="stylesheet" href="/stylesheets/layout-dark.css" media="">
     <noscript>
-    	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3WJC5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3WJC5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <script src="/javascripts/tag.js" async=""></script>
 </head>
@@ -37,6 +36,10 @@
                 <li>
                     <h3>Projects</h3>
                     <ul class="list-no-decoration">
+                        <!--li(class="")-->
+                        <!--    a(href="/projects")= "All"-->
+                        <!--li(class="")-->
+                        <!--    a(href="/projects/podcast")= "Artifact.fm"-->
                         <li><a href="/projects/slate">Slate</a></li>
                         <li><a href="/projects/weather">Atmospheric</a></li>
                         <li><a href="/projects/storymap">StoryMap.io</a></li>
@@ -59,29 +62,35 @@
             </center>
         </div>
     </div>
-    <div class="sub-content">
-        <center class="index-center">
-            <div class="index-content">
-                <div>
-                    <h1 class="index-title">Josh Stagg</h1>
-                    <!-- Links-->
-                    <ul class="links horz-list list-no-decoration">
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                    </ul>
-                </div>
-                <div class="social-links">
-                    <ul class="horz-list list-no-decoration">
-                        <li><a href="https://twitter.com/joshstagg" alt="Twitter" target="blank" class="socicon">a</a></li>
-                        <li><a href="https://www.instagram.com/joshstagg/" alt="Instagram" target="blank" class="socicon">x</a></li>
-                        <li><a href="https://github.com/stagg" alt="Github" target="blank" class="socicon">Q</a></li>
-                        <li><a href="https://ca.linkedin.com/in/joshstagg" alt="Linkedin" target="blank" class="socicon">j</a></li>
-                    </ul>
-                </div>
+    <div class="sub-content"><label for="sidenav" class="touch"></label>
+        <nav id="mobile-appbar" class="mui-container-fluid mui--z1">
+            <table width="100%">
+                <tbody>
+                    <tr class="mui--appbar-height">
+                        <td class="mui-col mui-col-xs-2"><label for="sidenav"><i class="fa fa-bars"></i></label></td>
+                        <td class="mui-col">StoryMap.io </td>
+                    </tr>
+                </tbody>
+            </table>
+        </nav>
+        <div class="mui-container-fluid">
+            <div class="article">
+                <!-- TITLE:StoryMap.io -->
+                <!-- AUTHOR:Josh Stagg -->
+                <!-- DATE:2014 -->
+                <p><img src="/images/Story-Map.png" alt=""></p>
+                <p>An agile tool using Github to map project management.
+                    A user story map arranges user stories into a useful model to help understand the functionality of the system,
+                    identify holes and omissions in your backlog, and effectively plan holistic releases that deliver value to users and
+                    business with each release - Jeff Patton in <a href="http://www.agileproductdesign.com/blog/the_new_backlog.html">The New User Story Backlog Is a Map.</a></p>
+                <p>StoryMap was developed at Univeristy of Alberta with Aaron Yong, Eleni Stroulia, Elvis Lin, Seth Davis, and myself
+                    for CMPUT 402-Software Quality. The goal of the project was to provide a story mapping tool for
+                    GitHub projects. In sense an abstraction layer for Github issues that allows them to fit within scrum planning.</p>
+                <h3 id="-storymap-on-github-https-github-com-stagg-story-map-"><a href="https://github.com/stagg/Story-Map">StoryMap on Github</a></h3>
             </div>
-        </center>
-        <footer id="footer" class="index-footer">
-            <center><i class="fa fa-copyright mini"></i><span class="mini"> 2022 Josh Stagg</span></center>
+        </div>
+        <footer id="footer" class="footer">
+            <center><i class="fa fa-copyright"></i> 2022 Josh Stagg</center>
         </footer>
     </div>
 </body>

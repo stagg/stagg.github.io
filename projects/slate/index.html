@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Josh Stagg</title>
+    <title>Slate: Watch Face </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#2196F3">
     <link rel="icon" sizes="192x192" href="/images/blue-icon.png">
@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="/stylesheets/font-awesome.css" media="">
     <link rel="stylesheet" href="/stylesheets/socicon.css" media="">
     <link rel="stylesheet" href="/stylesheets/layout.css" media="">
-    <link rel="stylesheet" href="/stylesheets/index.css" media="">
-    <link rel="stylesheet" href="/stylesheets/layout-light.css" media="">
+    <link rel="stylesheet" href="/stylesheets/layout-dark.css" media="">
     <noscript>
-    	<iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3WJC5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-W3WJC5" height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <script src="/javascripts/tag.js" async=""></script>
 </head>
@@ -37,6 +36,10 @@
                 <li>
                     <h3>Projects</h3>
                     <ul class="list-no-decoration">
+                        <!--li(class="")-->
+                        <!--    a(href="/projects")= "All"-->
+                        <!--li(class="")-->
+                        <!--    a(href="/projects/podcast")= "Artifact.fm"-->
                         <li><a href="/projects/slate">Slate</a></li>
                         <li><a href="/projects/weather">Atmospheric</a></li>
                         <li><a href="/projects/storymap">StoryMap.io</a></li>
@@ -59,29 +62,52 @@
             </center>
         </div>
     </div>
-    <div class="sub-content">
-        <center class="index-center">
-            <div class="index-content">
-                <div>
-                    <h1 class="index-title">Josh Stagg</h1>
-                    <!-- Links-->
-                    <ul class="links horz-list list-no-decoration">
-                        <li><a href="/about">About</a></li>
-                        <li><a href="/projects">Projects</a></li>
-                    </ul>
-                </div>
-                <div class="social-links">
-                    <ul class="horz-list list-no-decoration">
-                        <li><a href="https://twitter.com/joshstagg" alt="Twitter" target="blank" class="socicon">a</a></li>
-                        <li><a href="https://www.instagram.com/joshstagg/" alt="Instagram" target="blank" class="socicon">x</a></li>
-                        <li><a href="https://github.com/stagg" alt="Github" target="blank" class="socicon">Q</a></li>
-                        <li><a href="https://ca.linkedin.com/in/joshstagg" alt="Linkedin" target="blank" class="socicon">j</a></li>
-                    </ul>
-                </div>
+    <div class="sub-content"><label for="sidenav" class="touch"></label>
+        <nav id="mobile-appbar" class="mui-container-fluid mui--z1">
+            <table width="100%">
+                <tbody>
+                    <tr class="mui--appbar-height">
+                        <td class="mui-col mui-col-xs-2"><label for="sidenav"><i class="fa fa-bars"></i></label></td>
+                        <td class="mui-col">Slate: Watch Face </td>
+                    </tr>
+                </tbody>
+            </table>
+        </nav>
+        <div class="mui-container-fluid">
+            <div class="article">
+                <!-- TITLE:Slate: Watch Face -->
+                <!-- AUTHOR:Josh Stagg -->
+                <!-- DATE:2014 -->
+                <p><img src="/images/slate/feature.png" alt=""></p>
+                <center>
+                    Simple and clean analog watch face for Android Wear 2.0.
+                </center>
+                <p>
+                </p>
+                <h4>Features:</h4>
+                <ul>
+                    <li>Enable smooth movement on the second hand</li>
+                    <li>Personalize the second hand with a variety of colors</li>
+                    <li>Support for Text, Ranged, Icon, and Image complications</li>
+                    <p></p>
+                    <br>
+                    <center>
+                        The 10 best Android Wear watch faces - <a href="http://www.greenbot.com/article/2868764/the-10-best-android-wear-watch-faces.html">GreenBot.com</a>
+                    </center>
+                    <br>
+                    <center>
+                        <a href="https://github.com/stagg/slatewatchface">View on GitHub <span class="socicon">Q</span></a>
+                    </center>
+                    <br>
+                    <center>
+                        <a href="https://play.google.com/store/apps/details?id=ca.joshstagg.slate"><img src="Slate%20Watch%20Face_files/en_badge_web_generic.png" alt="Get it on Google Play" class="no-elevation" target="_blank" width="240px">
+                        </a>
+                    </center>
+                </ul>
             </div>
-        </center>
-        <footer id="footer" class="index-footer">
-            <center><i class="fa fa-copyright mini"></i><span class="mini"> 2022 Josh Stagg</span></center>
+        </div>
+        <footer id="footer" class="footer">
+            <center><i class="fa fa-copyright"></i> 2022 Josh Stagg</center>
         </footer>
     </div>
 </body>
